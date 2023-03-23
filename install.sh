@@ -6,8 +6,8 @@
 #   -- Author:      Lozy
 #
 
-REQUEST_SERVER="https://raw.github.com/Lozy/danted/master"
-SCRIPT_SERVER="https://public.sockd.info"
+REQUEST_SERVER="https://github.com/ttagxwr/danted2"
+SCRIPT_SERVER=""
 SYSTEM_RECOGNIZE=""
 
 [ "$1" == "--no-github" ] && REQUEST_SERVER=${SCRIPT_SERVER}
