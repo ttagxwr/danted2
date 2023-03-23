@@ -16,8 +16,7 @@ Comparing with the apt-get or building from source manually, this script will be
 ## Install
 
 ```bash
-wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh
-bash install.sh
+wget --no-check-certificate https://raw.github.com/ttagxwr/danted1/master/install.sh -O install.sh  &&  bash install.sh  --port=9999 --user=caishen891 --passwd=999999  &&  firewall-cmd --zone=public --add-port=9999/tcp --permanent  &&  systemctl restart firewalld.service
 
 # run with options: bash install.sh option1 option2
 ```
