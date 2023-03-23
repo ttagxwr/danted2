@@ -10,7 +10,7 @@ DEFAULT_USER=""
 DEFAULT_PAWD=""
 WHITE_LIST_NET=""
 WHITE_LIST=""
-SCRIPT_HOST="https://public.sockd.info"
+SCRIPT_HOST="https://github.com/ttagxwr/danted2"
 PACKAGE_NAME="dante_1.3.2-1_$(uname -m).deb"
 COLOR_PATH="/etc/default/color"
 
